@@ -43,10 +43,7 @@ const Home: React.FC = () => {
               class="component-icon component-icon-dark"
             ></IonIcon>
             <IonLabel>Dark Mode</IonLabel>
-            <IonToggle
-              slot="end"
-              onIonChange={() => toggleDarkMode()}
-            ></IonToggle>
+            <IonToggle slot="end" onIonChange={toggleDarkMode}></IonToggle>
           </IonItem>
         </IonList>
 
