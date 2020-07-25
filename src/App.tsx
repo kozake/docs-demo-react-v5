@@ -1,6 +1,5 @@
 import React from "react";
 import { Redirect, Route } from "react-router-dom";
-import { setupConfig } from "@ionic/core";
 import { IonApp, IonRouterOutlet } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import Home from "./pages/Home";
@@ -26,17 +25,13 @@ import { getComponents } from "./utils/component-utils";
 import "./theme/dark.css";
 import "./theme/variables.css";
 
-setupConfig({
-  animated: true,
-});
-
 const App: React.FC = () => {
   const components = getComponents();
 
   return (
     <IonApp>
       <IonReactRouter>
-        <IonRouterOutlet>
+        <IonRouterOutlet animated={false}>
           <Route path="/home" component={Home} exact={true} />
           <Route exact path="/" render={() => <Redirect to="/home" />} />
           {components
