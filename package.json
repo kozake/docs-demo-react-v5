@@ -1,7 +1,9 @@
 {
-  "name": "docs-demo-react-v5",
+  "name": "ionic-docs-demo-react-v5",
   "version": "0.0.1",
   "private": true,
+  "description": "ionic-docs-demo for react",
+  "license": "MIT",
   "dependencies": {
     "@capacitor/android": "^2.2.1",
     "@capacitor/core": "2.2.1",
@@ -47,6 +49,5 @@
   },
   "devDependencies": {
     "@capacitor/cli": "2.2.1"
-  },
-  "description": "An Ionic project"
+  }
 }
