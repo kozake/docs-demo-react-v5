@@ -1,0 +1,17 @@
+.ios .page-toolbar ion-header ion-segment {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.ios .page-toolbar ion-footer ion-title {
+  padding-left: 12px;
+  text-align: left;
+}
+
+.page-toolbar ion-content ion-header ion-toolbar:first-of-type {
+  padding-top: 0;
+}

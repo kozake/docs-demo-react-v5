@@ -1,0 +1,23 @@
+.component-details ion-list {
+  padding-bottom: 0 !important;
+  margin-bottom: 26px !important;
+}
+
+.component-details .item .component-description {
+  color: var(--ion-color-step-800, #3e4a58);
+  font-size: 18px;
+  line-height: 1.4;
+  white-space: normal;
+  padding-bottom: 16px;
+}
+
+.component-details .item .component-description b {
+  color: var(--ion-text-color, #000);
+  font-weight: 450;
+}
+
+.component-details .component-link {
+  text-transform: capitalize;
+
+  font-size: 16px;
+}

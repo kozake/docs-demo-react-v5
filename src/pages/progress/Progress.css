@@ -1,0 +1,7 @@
+.page-progress ion-content ion-progress-bar {
+  margin: 10px 0;
+}
+
+.page-progress .progress-margin {
+  margin-bottom: 40px;
+}

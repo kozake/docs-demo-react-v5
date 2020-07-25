@@ -1,0 +1,9 @@
+.page-button ion-list-header {
+  padding-left: 4px;
+}
+
+.page-button section {
+  margin-bottom: 1em;
+
+  padding: 0 10px;
+}

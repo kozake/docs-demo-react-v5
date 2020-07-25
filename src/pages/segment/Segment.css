@@ -1,0 +1,12 @@
+.ios .page-segment ion-header ion-segment {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.page-segment ion-content ion-segment {
+  margin: 10px auto;
+}

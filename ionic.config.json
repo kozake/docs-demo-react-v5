@@ -1,0 +1,8 @@
+{
+  "name": "ionic-react-app-v6",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "2f394df0"
+}
