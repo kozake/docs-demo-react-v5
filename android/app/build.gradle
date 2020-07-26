@@ -9,7 +9,7 @@ android {
         applicationId "com.gmail.kozake.sh.ionic_docs_demo_react_v5"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
+        versionCode 2
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
