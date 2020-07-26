@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
+
+    apply from: 'signing-configs.gradle', to: android  
+
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "io.ionic.starter"
