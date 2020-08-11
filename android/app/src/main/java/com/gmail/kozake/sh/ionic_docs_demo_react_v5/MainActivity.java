@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package com.gmail.kozake.sh.ionic_docs_demo_react_v5;
 
 import android.os.Bundle;
 
